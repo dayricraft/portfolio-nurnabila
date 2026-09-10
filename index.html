@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nur Nabila, S.Mat — HR & People Analytics | Data Analysis | Leadership & Project Coordination</title>
+  <meta name="description" content="Portofolio resmi Nur Nabila, S.Mat — Sarjana Matematika IPB University. Fokus pada HR & People Analytics, Data Analysis, serta Leadership & Project Coordination." />
+  <meta name="author" content="Nur Nabila, S.Mat" />
+  <meta name="keywords" content="Nur Nabila, S.Mat, IPB University, HR & People Analytics, Data Analysis, Leadership & Project Coordination, HRD, Data Analyst, BNSP, Python, Excel" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Nur Nabila, S.Mat — HR & People Analytics | Data Analysis | Leadership & Project Coordination" />
+  <meta property="og:description" content="Lulusan Sarjana Matematika IPB University dengan ketertarikan pada HR Analytics dan People Development. BNSP Certified Associate Data Scientist." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              200: '#e2e8f0',
+              300: '#cbd5e1',
+              400: '#94a3b8',
+              500: '#64748b',
+              600: '#475569',
+              700: '#334155',
+              800: '#1e293b',
+              900: '#0f172a',
+              950: '#020617',
+            },
+            accent: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-body selection:bg-slate-900 selection:text-white antialiased">
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-nav border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        
+        <!-- Brand Identity -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold text-sm tracking-tight group-hover:bg-slate-800 transition">
+            NN
+          </div>
+          <div class="flex flex-col">
+            <span class="font-sans font-bold text-slate-950 text-base leading-tight">Nur Nabila, S.Mat</span>
+            <span class="text-xs text-slate-600 font-medium flex items-center gap-1.5 mt-0.5">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block"></span>
+              HR & People Analytics • Data Analysis • Project Coordination
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-1 bg-slate-100/90 p-1 rounded-full border border-slate-200">
+          <a href="#about" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Tentang</a>
+          <a href="#pillars" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Fokus Karir</a>
+          <a href="#projects" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Proyek</a>
+          <a href="#experience" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Pengalaman</a>
+          <a href="#certificates" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Sertifikat & Publikasi</a>
+          <a href="#skills" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-950 hover:bg-white rounded-full transition">Keahlian</a>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="hidden sm:flex items-center gap-2.5">
+          <a href="Nur Nabila-CV.pdf" download="Nur Nabila-CV.pdf" class="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-bold text-slate-800 hover:text-slate-950 bg-white hover:bg-slate-100 border border-slate-300 rounded-lg transition shadow-sm">
+            <i data-lucide="download" class="w-3.5 h-3.5 text-slate-700"></i>
+            <span>Unduh CV</span>
+          </a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition shadow-sm">
+            <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+            <span>Hubungi Saya</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 transition" aria-label="Buka Menu Navigasi">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-2 shadow-lg">
+      <a href="#about" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Tentang</a>
+      <a href="#pillars" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Fokus Karir</a>
+      <a href="#projects" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Proyek Terpilih</a>
+      <a href="#experience" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Pengalaman Kerja & Kepemimpinan</a>
+      <a href="#certificates" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Sertifikat & Publikasi</a>
+      <a href="#skills" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 rounded-lg">Keahlian & Tools</a>
+      <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
+        <a href="Nur Nabila-CV.pdf" download="Nur Nabila-CV.pdf" class="flex items-center justify-center gap-2 py-2.5 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition">
+          <i data-lucide="download" class="w-4 h-4"></i> Unduh CV
+        </a>
+        <a href="#contact" class="flex items-center justify-center gap-2 py-2.5 text-xs font-bold text-white bg-slate-900 rounded-lg">
+          <i data-lucide="mail" class="w-4 h-4"></i> Hubungi Saya
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="about" class="pt-28 pb-16 sm:pt-36 sm:pb-24 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="bg-white rounded-3xl border border-slate-200/90 shadow-sm p-6 sm:p-10 lg:p-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            
+            <!-- Left: Profile Photo Card -->
+            <div class="lg:col-span-5 flex flex-col items-center">
+              <div class="relative w-full max-w-[320px] aspect-[4/5] rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 group shadow-sm">
+                <img src="assets/profile.png" alt="Nur Nabila, S.Mat - Sarjana Matematika IPB" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none"></div>
+
+                <!-- Credential Strip -->
+                <div class="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-900/95 backdrop-blur-md border border-slate-800 text-white flex items-center justify-between">
+                  <div class="flex flex-col">
+                    <span class="text-xs font-bold text-slate-100">Nur Nabila, S.Mat</span>
+                    <span class="text-[11px] text-slate-300">Sarjana Matematika • IPB University</span>
+                  </div>
+                  <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-white/10 text-emerald-300 border border-emerald-400/30">
+                    BNSP Certified
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Bio & Value Proposition -->
+            <div class="lg:col-span-7 flex flex-col items-start text-left">
+              
+              <!-- Professional Tagline Badge -->
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold mb-4">
+                <i data-lucide="briefcase" class="w-3.5 h-3.5 text-slate-700"></i>
+                <span>HR & People Analytics | Data Analysis | Leadership & Project Coordination</span>
+              </div>
+
+              <!-- Main Title -->
+              <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-950 leading-[1.25] font-sans tracking-tight">
+                Menghubungkan Analisis Data Kuantitatif dengan Manajemen SDM & Proyek.
+              </h1>
+
+              <!-- About Text -->
+              <p class="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
+                Lulusan <strong>Sarjana Matematika dari IPB University</strong> dengan ketertarikan pada <strong>HR Analytics dan People Development</strong>. Menggabungkan kemampuan analitis dalam pengolahan dan validasi <strong>1.500+ data records</strong> menggunakan Python dan Excel dengan pengalaman dalam <strong>Human Resource Development, evaluasi KPI, dan people management</strong>. Berpengalaman memimpin dan mengembangkan <strong>11 anggota PSDM</strong> serta mengoordinasikan <strong>65+ panitia</strong> dalam kegiatan tingkat universitas. Tertarik mengubah data menjadi <em>insight</em> yang dapat mendukung pengambilan keputusan, pengembangan karyawan, dan efektivitas organisasi.
+              </p>
+
+              <!-- Action CTAs -->
+              <div class="mt-6 flex flex-wrap items-center gap-3">
+                <a href="#projects" class="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition shadow-sm">
+                  <span>Jelajahi Proyek</span>
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </a>
+                <a href="Nur Nabila-CV.pdf" download="Nur Nabila-CV.pdf" class="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-slate-800 hover:text-slate-950 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded-lg transition">
+                  <i data-lucide="download" class="w-3.5 h-3.5 text-slate-700"></i>
+                  <span>Unduh CV</span>
+                </a>
+                <a href="https://wa.me/6282258093523" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-lg transition">
+                  <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i>
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+
+              <!-- 4 Key Metrics Bar -->
+              <div class="mt-8 w-full grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-slate-100">
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col">
+                  <span class="text-[10px] font-bold tracking-wider uppercase text-slate-500">PEOPLE & HRD</span>
+                  <span class="text-xl font-extrabold text-slate-900 mt-0.5">11 Staf</span>
+                  <span class="text-xs text-slate-600 font-medium">Evaluasi KPI & SDM</span>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col">
+                  <span class="text-[10px] font-bold tracking-wider uppercase text-slate-500">PROJECT LEAD</span>
+                  <span class="text-xl font-extrabold text-slate-900 mt-0.5">65+ Panitia</span>
+                  <span class="text-xs text-slate-600 font-medium">Project Lead Neomath</span>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col">
+                  <span class="text-[10px] font-bold tracking-wider uppercase text-slate-500">DATA AUDIT & QC</span>
+                  <span class="text-xl font-extrabold text-slate-900 mt-0.5">1.500+</span>
+                  <span class="text-xs text-slate-600 font-medium">Record Tervalidasi</span>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col">
+                  <span class="text-[10px] font-bold tracking-wider uppercase text-slate-500">KREDENSIAL</span>
+                  <span class="text-xl font-extrabold text-slate-900 mt-0.5">BNSP</span>
+                  <span class="text-xs text-slate-600 font-medium">Data Scientist & Author</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 3 CAREER PILLARS ==================== -->
+    <section id="pillars" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="flex flex-col items-center text-center mb-12">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">FOKUS & KOMPETENSI</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-950 font-sans tracking-tight">
+          3 Fokus Karir Utama
+        </h2>
+        <p class="mt-2 text-slate-600 max-w-xl text-xs sm:text-sm">
+          Integrasi kemampuan analitis matematika, pengembangan sumber daya manusia, dan manajemen proyek.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Pillar 1: HR & People Analytics -->
+        <div class="bg-white rounded-2xl border border-slate-200 border-t-4 border-t-blue-600 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center mb-4 font-bold border border-blue-200/80">
+              <i data-lucide="users" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-sans">
+              HR & People Analytics
+            </h3>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Memimpin Departemen PSDM (Pengembangan Sumber Daya Mahasiswa) Gumatika IPB. Merancang sistem evaluasi kinerja, memonitor metrik kehadiran dan partisipasi aktif anggota, serta mengelola 100+ arsip data kepegawaian organisasi.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs space-y-2 text-slate-600">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-blue-700"></i> Monitoring KPI Kinerja 11 Staf
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-blue-700"></i> Pengelolaan Data 100+ Arsip HRD
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-blue-700"></i> Sertifikat 7 Habits (Interpersonal Skill)
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Leadership & Project Coordination -->
+        <div class="bg-white rounded-2xl border border-slate-200 border-t-4 border-t-amber-500 p-6 shadow-sm hover:shadow-md hover:border-amber-300 transition flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center mb-4 font-bold border border-amber-200/80">
+              <i data-lucide="folder-kanban" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-sans">
+              Leadership & Project Coordination
+            </h3>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Memimpin <strong>65+ panitia</strong> sebagai Project Lead Neomath 2025 dan Sekretaris Operasional SPIRIT lintas 10 divisi. Terbiasa menyusun timeline bertahap, alokasi sumber daya, mitigasi risiko, dan tata kelola operasional berbasis data.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs space-y-2 text-slate-600">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-amber-700"></i> Project Lead 65+ Panitia & 80 Partisipan
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-amber-700"></i> Sinergi Operasional Lintas 10 Divisi
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-amber-700"></i> Formulasi Optimasi Rute & Logistik (MILP)
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Data Analysis & Quality Control -->
+        <div class="bg-white rounded-2xl border border-slate-200 border-t-4 border-t-emerald-600 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-4 font-bold border border-emerald-200/80">
+              <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-sans">
+              Data Analysis & Quality Control
+            </h3>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Memiliki sertifikasi <strong>BNSP Associate Data Scientist</strong> dan pengalaman kerja melakukan kontrol kualitas pada <strong>1.500+ data records</strong> di PT Optima Solusi Indonesia. Terampil statistik multivariat, pembersihan data, dan visualisasi EDA.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs space-y-2 text-slate-600">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-emerald-700"></i> Validasi 1.500+ Records (PT Optima Solusi)
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-emerald-700"></i> BNSP Certified Data Scientist (XGBoost/RF)
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-emerald-700"></i> Penulis Jurnal Ilmiah (Techno.Com 2026)
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== PROJECTS SHOWCASE ==================== -->
+    <section id="projects" class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="flex flex-col items-center text-center mb-10">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">PORTOFOLIO PROYEK & RISET</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-950 font-sans tracking-tight">
+          Proyek Terpilih
+        </h2>
+        <p class="mt-2 text-slate-600 max-w-xl text-xs sm:text-sm">
+          Penerapan analisis data, kontrol kualitas, optimasi operasional, dan kepemimpinan program.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-1.5 p-1 rounded-xl bg-slate-200/80 border border-slate-300 max-w-2xl w-full">
+          <button onclick="filterProjects('all')" class="proj-tab-btn active px-4 py-1.5 rounded-lg text-xs font-bold transition bg-white text-slate-900 shadow-sm">
+            Semua (7)
+          </button>
+          <button onclick="filterProjects('data-analyst')" class="proj-tab-btn px-4 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Data Analysis & QC (3)
+          </button>
+          <button onclick="filterProjects('pmo')" class="proj-tab-btn px-4 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Project & Leadership (2)
+          </button>
+          <button onclick="filterProjects('research')" class="proj-tab-btn px-4 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Publikasi & Riset (2)
+          </button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="projectsGrid">
+
+        <!-- Card 1: Data Quality Control (PT Optima Solusi Indonesia) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-emerald-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-emerald-300 transition" data-category="data-analyst">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-bold">
+                <i data-lucide="check-circle" class="w-3 h-3 text-emerald-600"></i>
+                DATA AUDIT & QC
+              </span>
+              <span class="text-xs text-slate-400 font-medium">Jul – Agu 2026</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Data Quality Control & Validation System
+            </h3>
+            <p class="text-xs font-semibold text-emerald-700 mt-0.5">PT Optima Solusi Indonesia</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Melakukan inspeksi audit integritas pada 1.500+ baris data. Menangani identifikasi diskrepansi, pencocokan data sumber asli, serta manajemen alur arsip cloud data bersama tim 5 orang.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200/60 text-[10px] font-semibold">Excel (VLOOKUP)</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[10px] font-semibold">Google Sheets</span>
+            </div>
+            <button onclick="openModal('qcModal')" class="text-xs font-bold text-emerald-800 hover:text-emerald-950 flex items-center gap-1">
+              <span>Detail</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Incident Risk Prediction & EDA (BNSP Data Scientist) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-indigo-600 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-indigo-300 transition" data-category="data-analyst">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-indigo-50 text-indigo-800 border border-indigo-200 text-[11px] font-bold">
+                <i data-lucide="bar-chart-2" class="w-3 h-3 text-indigo-600"></i>
+                BNSP DATA SCIENCE
+              </span>
+              <span class="text-xs text-slate-400 font-medium">Asesmen 2026</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Incident Risk Prediction & Workplace Shift Analysis
+            </h3>
+            <p class="text-xs font-semibold text-indigo-700 mt-0.5">Model: Random Forest, XGBoost & Visualisasi EDA</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Menganalisis pola shift kerja operasional terhadap risiko insiden menggunakan visualisasi heatmap interaktif, identifikasi tren kuartal, serta pemodelan klasifikasi XGBoost & Random Forest.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-indigo-50 text-indigo-800 border border-indigo-200/60 text-[10px] font-semibold">Python</span>
+              <span class="px-2 py-0.5 rounded bg-blue-50 text-blue-800 border border-blue-200/60 text-[10px] font-semibold">XGBoost</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <a href="projects/sertifikasi-bnsp-data-scientist.html" target="_blank" class="text-xs font-bold text-indigo-700 hover:text-indigo-900 flex items-center gap-1">
+                <i data-lucide="code-2" class="w-3.5 h-3.5"></i> Notebook
+              </a>
+              <button onclick="openModal('bnspModal')" class="text-xs font-bold text-slate-900 hover:text-indigo-700 flex items-center gap-1">
+                <span>Detail</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Neomath Project Management -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-amber-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-amber-300 transition" data-category="pmo">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-50 text-amber-900 border border-amber-200 text-[11px] font-bold">
+                <i data-lucide="users" class="w-3 h-3 text-amber-600"></i>
+                PROJECT LEADERSHIP
+              </span>
+              <span class="text-xs text-slate-400 font-medium">2025</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Neomath 2025: Program Coordination & Risk Management
+            </h3>
+            <p class="text-xs font-semibold text-amber-800 mt-0.5">Departemen Matematika IPB University</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Memimpin 65+ panitia lintas divisi untuk menyelenggarakan masa orientasi sekitar 80 mahasiswa baru. Menyusun timeline bertahap, manajemen risiko kendala teknis, dan pengawasan anggaran kegiatan.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200/60 text-[10px] font-semibold">Gantt Timelines</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[10px] font-semibold">65+ Panitia</span>
+            </div>
+            <a href="#experience" class="text-xs font-bold text-amber-900 hover:text-amber-950 flex items-center gap-1">
+              <span>Timeline</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4: Wi-Fi Signal Propagation (Publikasi Jurnal Resmi Techno.Com) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-rose-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-rose-300 transition" data-category="research">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-rose-50 text-rose-800 border border-rose-200 text-[11px] font-bold">
+                <i data-lucide="book-open" class="w-3 h-3 text-rose-600"></i>
+                JURNAL TERAKREDITASI
+              </span>
+              <span class="text-xs text-slate-400 font-medium">Feb 2026</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Simulasi Propagasi Sinyal Wi-Fi Menggunakan Metode Elemen Hingga
+            </h3>
+            <p class="text-xs font-semibold text-rose-700 mt-0.5">Jurnal Techno.Com (Vol. 25 No. 1, 2026)</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Penulis artikel riset ilmiah mengenai model matematika gelombang Helmholtz dan FEM untuk memetakan pelemahan sinyal Wi-Fi pada denah rumah L di jurnal terakreditasi nasional.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <a href="https://doi.org/10.62411/tc.v25i1.15769" target="_blank" rel="noopener noreferrer" class="px-2 py-0.5 rounded bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 text-xs font-bold flex items-center gap-1 transition">
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i> DOI ↗
+              </a>
+              <a href="https://publikasi.dinus.ac.id/technoc/article/download/15769/5891" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-slate-600 hover:text-slate-900 flex items-center gap-1">
+                <i data-lucide="download" class="w-3.5 h-3.5"></i> PDF
+              </a>
+            </div>
+            <button onclick="openModal('femModal')" class="text-xs font-bold text-rose-800 hover:text-rose-950 flex items-center gap-1">
+              <span>Detail</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 5: Nuclear Waste Route Optimization (Operations Research & PMO) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-sky-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-sky-300 transition" data-category="pmo">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-sky-50 text-sky-800 border border-sky-200 text-[11px] font-bold">
+                <i data-lucide="map-pin" class="w-3 h-3 text-sky-600"></i>
+                OPERATIONS RESEARCH
+              </span>
+              <span class="text-xs text-slate-400 font-medium">2025</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Nuclear Waste Transportation Route Optimization (MILP)
+            </h3>
+            <p class="text-xs font-semibold text-sky-700 mt-0.5">Model: Mixed Integer Linear Programming</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Memformulasikan model optimasi logistik dengan <em>Mixed Integer Linear Programming (MILP)</em> untuk meminimalkan risiko paparan radiasi populasi di bawah batasan waktu tempuh armada.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-sky-50 text-sky-800 border border-sky-200/60 text-[10px] font-semibold">MILP</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[10px] font-semibold">PuLP</span>
+            </div>
+            <button onclick="openModal('milpModal')" class="text-xs font-bold text-sky-800 hover:text-sky-950 flex items-center gap-1">
+              <span>Detail</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 6: Skripsi COPD (Data Analyst & Statistics) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-purple-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-purple-300 transition" data-category="data-analyst">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-purple-50 text-purple-800 border border-purple-200 text-[11px] font-bold">
+                <i data-lucide="activity" class="w-3 h-3 text-purple-600"></i>
+                SKRIPSI SARJANA (S.MAT)
+              </span>
+              <span class="text-xs text-slate-400 font-medium">2026</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              COPD Severity Classification (PCA + Multinomial Logistic)
+            </h3>
+            <p class="text-xs font-semibold text-purple-700 mt-0.5">IPB University — Tugas Akhir</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Membangun model analisis data klasifikasi keparahan penyakit paru. Menggunakan Principal Component Analysis (PCA) untuk mereduksi multikolinieritas fitur klinis dan Regresi Logistik Multinomial.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-purple-50 text-purple-800 border border-purple-200/60 text-[10px] font-semibold">Python</span>
+              <span class="px-2 py-0.5 rounded bg-indigo-50 text-indigo-800 border border-indigo-200/60 text-[10px] font-semibold">PCA</span>
+            </div>
+            <button onclick="openModal('copdModal')" class="text-xs font-bold text-purple-800 hover:text-purple-950 flex items-center gap-1">
+              <span>Detail</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 7: Cryptography & Population Dynamics (Research) -->
+        <div class="project-card bg-white rounded-2xl border border-slate-200 border-t-4 border-t-teal-500 p-6 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-teal-300 transition" data-category="research">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 text-[11px] font-bold">
+                <i data-lucide="lock" class="w-3 h-3 text-teal-600"></i>
+                RISET MATEMATIKA
+              </span>
+              <span class="text-xs text-slate-400 font-medium">2025</span>
+            </div>
+            <h3 class="text-base font-bold text-slate-950 font-sans leading-snug">
+              Cryptographic Security Analysis: Rabin & Rabin–Williams Signatures
+            </h3>
+            <p class="text-xs font-semibold text-teal-700 mt-0.5">Teori Bilangan & Digital Signature</p>
+            <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Mengkaji ketahanan matematis skema tanda tangan digital berbasis residu kuadratik modulo faktorisasi prima N = pq terhadap serangan pemalsuan dan kompleksitas verifikasi.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-teal-50 text-teal-800 border border-teal-200/60 text-[10px] font-semibold">Teori Bilangan</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[10px] font-semibold">Kriptografi</span>
+            </div>
+            <button onclick="openModal('cryptoModal')" class="text-xs font-bold text-teal-800 hover:text-teal-950 flex items-center gap-1">
+              <span>Detail</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== EXPERIENCE & LEADERSHIP DUAL TIMELINE ==================== -->
+    <section id="experience" class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div class="flex flex-col items-center text-center mb-10">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">PENGALAMAN NYATA</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-950 font-sans tracking-tight">
+          Pengalaman Kerja & Kepemimpinan
+        </h2>
+        <p class="mt-2 text-slate-600 max-w-xl text-xs sm:text-sm">
+          Rekam jejak profesional di industri dan kepemimpinan organisasi universitas.
+        </p>
+
+        <!-- Toggle Switch -->
+        <div class="mt-6 inline-flex p-1 rounded-xl bg-slate-200/80 border border-slate-300">
+          <button id="tabExpWork" onclick="switchExpTab('work')" class="px-4 py-1.5 rounded-lg text-xs font-bold transition bg-white text-slate-900 shadow-sm">
+            Pengalaman Kerja (Data QC)
+          </button>
+          <button id="tabExpOrg" onclick="switchExpTab('org')" class="px-4 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Organisasi & Kepemimpinan (5 Posisi)
+          </button>
+        </div>
+      </div>
+
+      <!-- WORK TIMELINE -->
+      <div id="timelineWork" class="space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-4">
+            <div>
+              <span class="inline-block px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-[11px] font-bold mb-1">
+                Data Analyst & Quality Control
+              </span>
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">Data Quality Control Specialist</h3>
+              <p class="text-xs sm:text-sm font-semibold text-slate-600 flex items-center gap-1.5 mt-0.5">
+                <i data-lucide="building-2" class="w-4 h-4 text-slate-400"></i>
+                PT Optima Solusi Indonesia
+              </p>
+            </div>
+            <div class="text-left sm:text-right">
+              <span class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200">
+                <i data-lucide="calendar" class="w-3.5 h-3.5 text-slate-400"></i> Jul 2026 – Agu 2026
+              </span>
+              <div class="text-xs text-slate-400 mt-1">Remote, Indonesia</div>
+            </div>
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+            Bertanggung jawab langsung memastikan akurasi, konsistensi, dan kelengkapan <strong>1.500+ record data</strong> agar selaras dengan dokumen acuan primer.
+          </p>
+
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-600">
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check" class="w-4 h-4 text-slate-900 shrink-0 mt-0.5"></i>
+              <span>Melakukan audit validasi komprehensif pada <strong>1.500+ baris data</strong> guna menjaga standar akurasi data analitik perusahaan.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check" class="w-4 h-4 text-slate-900 shrink-0 mt-0.5"></i>
+              <span>Mengidentifikasi, menandai, dan mengklarifikasi anomali/diskrepansi data terhadap berkas sumber rujukan.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check" class="w-4 h-4 text-slate-900 shrink-0 mt-0.5"></i>
+              <span>Memanfaatkan formula lanjutan Microsoft Excel & Google Sheets (VLOOKUP, Pivot Tables, aturan validasi data, dan logika kondisional).</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check" class="w-4 h-4 text-slate-900 shrink-0 mt-0.5"></i>
+              <span>Mengorganisir arsitektur penyimpanan cloud (Google Drive) dan berkolaborasi secara tangkas dalam tim remote beranggotakan 5 orang.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ORG TIMELINE (Hidden by default) -->
+      <div id="timelineOrg" class="hidden space-y-4">
+        
+        <!-- Role 1: Head of HRD Gumatika -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-800">HR & People Development</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Ketua Departemen Pengembangan Sumber Daya Mahasiswa (PSDM / HRD)</h3>
+              <p class="text-xs font-semibold text-slate-600">Gumatika (Himpunan Mahasiswa Matematika IPB)</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200 shrink-0 self-start sm:self-center">
+              Jan 2025 – Des 2025
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+            • <strong>HR Analytics & KPI Management:</strong> Memimpin 11 staf HRD dalam merancang sistem evaluasi kinerja anggota, memonitor metrik kehadiran dan partisipasi aktif mahasiswa, serta memastikan target program kerja tercapai 100%.<br>
+            • Mengelola delegasi penugasan, memfasilitasi komunikasi tim, dan membina lingkungan kerja yang inklusif dan suportif.
+          </p>
+        </div>
+
+        <!-- Role 2: Project Lead Neomath -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-800">Project Management</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Ketua Pelaksana Neomath 2025 (Project Lead)</h3>
+              <p class="text-xs font-semibold text-slate-600">Departemen Matematika IPB University</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200 shrink-0 self-start sm:self-center">
+              Jun 2025 – Sep 2025
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+            • <strong>Project Management Skala Besar:</strong> Memimpin <strong>65+ panitia</strong> lintas divisi untuk menyukseskan rangkaian masa orientasi sekitar <strong>80 mahasiswa baru</strong> Departemen Matematika IPB.<br>
+            • Mengelola timeline bertahap, pemetaan risiko kendala lapangan, mitigasi masalah lintas divisi secara real-time, dan kepatuhan anggaran kegiatan.
+          </p>
+        </div>
+
+        <!-- Role 3: Secretary HRD Gumatika -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-800">HR Administration</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Sekretaris Departemen PSDM (HRD)</h3>
+              <p class="text-xs font-semibold text-slate-600">Gumatika (Himpunan Mahasiswa Matematika IPB)</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200 shrink-0 self-start sm:self-center">
+              Jan 2024 – Des 2024
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2">
+            • Mengelola data <strong>100+ dokumen administratif HRD</strong>, database keanggotaan, surat-menyurat resmi, dan menyusun notulensi lebih dari 30 rapat koordinasi departemen.
+          </p>
+        </div>
+
+        <!-- Role 4: General Secretary E-Math -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-800">Event Administration</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Sekretaris Umum E-Math 2024</h3>
+              <p class="text-xs font-semibold text-slate-600">Masa Orientasi Departemen Matematika IPB</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200 shrink-0 self-start sm:self-center">
+              Jun 2024 – Sep 2024
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2">
+            • Mengoordinasikan kebutuhan administrasi dan alur komunikasi lintas 7 divisi kepanitiaan yang melibatkan 60+ panitia untuk 5 rangkaian kegiatan.
+          </p>
+        </div>
+
+        <!-- Role 5: Operational Secretary SPIRIT FMIPA -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <div>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-800">Operations</span>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Sekretaris Operasional SPIRIT FMIPA 2024</h3>
+              <p class="text-xs font-semibold text-slate-600">Fakultas MIPA IPB University</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200 shrink-0 self-start sm:self-center">
+              Jul 2024 – Okt 2024
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-600 mt-2">
+            • Mengawal manajemen operasional acara skala fakultas yang melibatkan 50+ panitia dan 10+ cabang perlombaan olahraga dan kesenian.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== CERTIFICATES & PUBLICATIONS ==================== -->
+    <section id="certificates" class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="flex flex-col items-center text-center mb-10">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">KREDENSIAL & SERTIFIKASI</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-950 font-sans tracking-tight">
+          Sertifikat & Publikasi Ilmiah Terverifikasi
+        </h2>
+        <p class="mt-2 text-slate-600 max-w-xl text-xs sm:text-sm">
+          Dokumen resmi yang diterbitkan oleh BNSP, penerbit jurnal nasional, dan IPB University.
+        </p>
+
+        <!-- Clean Cloud Drive Link Card -->
+        <div class="mt-6 w-full max-w-2xl bg-white rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4 border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 text-left">
+            <div class="w-9 h-9 rounded-lg bg-slate-100 text-slate-800 flex items-center justify-center shrink-0">
+              <i data-lucide="folder" class="w-4 h-4"></i>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-slate-900">Arsip Berkas di Google Drive</div>
+              <div class="text-[11px] text-slate-500">Akses seluruh dokumen sertifikat asli dalam satu folder</div>
+            </div>
+          </div>
+          <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shrink-0">
+            <span>Buka Google Drive</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Filter tabs for certificates -->
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-1.5 p-1 rounded-xl bg-slate-200/80 border border-slate-300 max-w-2xl w-full">
+          <button onclick="filterCerts('all')" class="cert-tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-white text-slate-900 shadow-sm">
+            Semua (11)
+          </button>
+          <button onclick="filterCerts('publication')" class="cert-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Publikasi Jurnal (1)
+          </button>
+          <button onclick="filterCerts('competency')" class="cert-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Kompetensi BNSP (2)
+          </button>
+          <button onclick="filterCerts('leadership')" class="cert-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Kepemimpinan (5)
+          </button>
+          <button onclick="filterCerts('academic')" class="cert-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-600 hover:text-slate-900">
+            Akademik & Pelatihan (3)
+          </button>
+        </div>
+      </div>
+
+      <!-- Certificate Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="certsGrid">
+
+        <!-- Item: Official Journal Publication -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="publication">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-rose-50 text-rose-800 border border-rose-200">PUBLIKASI JURNAL</span>
+              <span class="text-xs text-slate-400">Feb 2026</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Simulasi Propagasi Sinyal Wi-Fi Menggunakan Metode Elemen Hingga
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Jurnal Techno.Com (Vol. 25, No. 1)</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed font-mono text-[11px]">
+              DOI: 10.62411/tc.v25i1.15769
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="https://doi.org/10.62411/tc.v25i1.15769" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Buka DOI
+            </a>
+            <a href="https://publikasi.dinus.ac.id/technoc/article/download/15769/5891" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-slate-600 hover:text-slate-900 flex items-center gap-1">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> PDF
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 1: BNSP Data Scientist -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="competency">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-indigo-50 text-indigo-800 border border-indigo-200">SERTIFIKASI NASIONAL</span>
+              <span class="text-xs text-slate-400">2026</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              BNSP Associate Data Scientist
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Kompeten dalam uji kompetensi data science: analisis tren, pembersihan data, serta pemodelan machine learning.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <a href="assets/certificates/Sertifikasi BNSP_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+                <i data-lucide="file-text" class="w-3.5 h-3.5"></i> PDF
+              </a>
+              <a href="projects/sertifikasi-bnsp-data-scientist.html" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+                <i data-lucide="code-2" class="w-3.5 h-3.5"></i> Notebook
+              </a>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 2: Pelatihan BNSP SSMI -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="competency">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-indigo-50 text-indigo-800 border border-indigo-200">PELATIHAN</span>
+              <span class="text-xs text-slate-400">2026</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Pelatihan BNSP SSMI 2026: Associate Data Scientist
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Lembaga Pelatihan SSMI & BNSP</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Pelatihan intensif persiapan asesmen mencakup EDA, feature engineering, pemodelan data, dan evaluasi metrik.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat Pelatihan BNSP SSMI 2026 Skema Associate Data Scientist_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 3: Surat Keterangan Lulus (SKL) IPB -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="academic">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-800 border border-blue-200">GELAR AKADEMIK (S.MAT)</span>
+              <span class="text-xs text-slate-400">2026</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Surat Keterangan Lulus (SKL) Sarjana Matematika
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">FMIPA IPB University</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Dokumen resmi kelulusan Program Sarjana (S1) Departemen Matematika IPB University menyandang gelar <strong>Sarjana Matematika (S.Mat)</strong>.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Surat Keterangan Lulus_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 4: Ketua Pelaksana Neomath 2025 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="leadership">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">PROJECT LEAD</span>
+              <span class="text-xs text-slate-400">2025</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Ketua Pelaksana Neomath 2025
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Departemen Matematika IPB</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Sertifikat penghargaan sebagai Project Lead memimpin 65+ anggota panitia pada masa orientasi mahasiswa baru.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Ketua Pelaksana Neomath_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 5: Ketua Departemen PSDM Gumatika 2025 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="leadership">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">HRD / PSDM</span>
+              <span class="text-xs text-slate-400">2025</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Ketua Departemen PSDM (HRD) Gumatika IPB
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Gumatika FMIPA IPB University</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Sertifikat kepengurusan sebagai Kepala Departemen PSDM, mengoordinasikan 11 staf dan evaluasi KPI kaderisasi.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Ketua Departemen PSDM_Gumatika_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 6: Sekretaris PSDM Gumatika 2024 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="leadership">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">ADMINISTRASI SDM</span>
+              <span class="text-xs text-slate-400">2024</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Sekretaris Departemen PSDM Gumatika
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Gumatika FMIPA IPB University</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Pengelolaan 100+ dokumen administratif HRD, database keanggotaan, dan arsip program kerja divisi.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Sekretaris Departemen PSDM_Gumatika_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 7: Sekretaris E-Math 2024 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="leadership">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">KEPANITIAAN</span>
+              <span class="text-xs text-slate-400">2024</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Sekretaris Umum E-Math 2024
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Masa Orientasi Departemen Matematika IPB</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Pengelolaan seluruh surat keputusan, izin kegiatan kampus, dan dokumentasi rapat koordinasi kepanitiaan E-Math.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Sekretaris E-Math_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 8: Sekretaris Operasional SPIRIT FMIPA 2024 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="leadership">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">OPERASIONAL FAKULTAS</span>
+              <span class="text-xs text-slate-400">2024</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Sekretaris Operasional SPIRIT FMIPA 2024
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Fakultas MIPA IPB University</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Operasional administrasi acara perlombaan olahraga & seni fakultas yang melibatkan 50+ panitia lintas 10 divisi.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Sekretaris Operasional_Spirit_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 9: Volunteer MPKMB IPB 60 -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="academic">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-800 border border-blue-200">VOLUNTEER KAMPUS</span>
+              <span class="text-xs text-slate-400">2023</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              Volunteer MPKMB IPB Angkatan 60
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">Direktorat Kemahasiswaan IPB</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Memfasilitasi dan mendampingi ribuan mahasiswa baru pada Masa Pengenalan Kampus Mahasiswa Baru IPB.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_Volunteer_MPKMB IPB 60_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 10: 7 Habits -->
+        <div class="cert-card bg-white rounded-xl border border-slate-200 p-5 flex flex-col justify-between shadow-sm hover:border-slate-300 transition" data-cert-cat="academic">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-800 border border-blue-200">PELATIHAN KEPEMIMPINAN</span>
+              <span class="text-xs text-slate-400">2024</span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 font-sans leading-snug">
+              The 7 Habits of Highly Effective College Students
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">FranklinCovey & IPB University</p>
+            <p class="mt-2 text-xs text-slate-500 leading-relaxed">
+              Pelatihan kepemimpinan personal dan efektivitas tim: proaktivitas, prioritas, sinergi, dan komunikasi empatik.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+            <a href="assets/certificates/Sertifikat_7Habits_Nur Nabila.pdf" target="_blank" class="text-xs font-bold text-slate-900 hover:underline flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i> Lihat PDF
+            </a>
+            <a href="https://drive.google.com/drive/folders/1_d-UZGlq7ldAG9JjK7FxyiZqS5Vvv7Xe?usp=sharing" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-800">
+              Drive ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SKILLS & CAPABILITIES ==================== -->
+    <section id="skills" class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="flex flex-col items-center text-center mb-10">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">KEAHLIAN & TOOLS</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-950 font-sans tracking-tight">
+          Matriks Keahlian Terstruktur
+        </h2>
+        <p class="mt-2 text-slate-600 max-w-xl text-xs sm:text-sm">
+          Ringkasan kemampuan analitis, manajerial SDM, dan penguasaan perangkat lunak.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Box 1: HR & People Analytics -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <div class="flex items-center gap-2.5 mb-4 pb-3 border-b border-slate-100">
+            <div class="w-8 h-8 rounded-lg bg-slate-100 text-slate-800 flex items-center justify-center font-bold">
+              <i data-lucide="users" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm">HR & People Analytics</h3>
+          </div>
+          <div class="space-y-2.5 text-xs">
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">KPI Monitoring & Evaluasi Kinerja</span>
+              <span class="text-slate-500 font-medium">Applied</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Database & Arsip Kepegawaian (100+)</span>
+              <span class="text-slate-500 font-medium">Applied</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Desain Formulir Evaluasi & Survei SDM</span>
+              <span class="text-slate-500 font-medium">Applied</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">The 7 Habits: Komunikasi Empatik</span>
+              <span class="text-slate-500 font-medium">Certified</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2: Leadership & Project Tools -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <div class="flex items-center gap-2.5 mb-4 pb-3 border-b border-slate-100">
+            <div class="w-8 h-8 rounded-lg bg-slate-100 text-slate-800 flex items-center justify-center font-bold">
+              <i data-lucide="folder-kanban" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm">Leadership & Project Tools</h3>
+          </div>
+          <div class="space-y-2.5 text-xs">
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Koordinasi Tim Lintas Divisi (65+)</span>
+              <span class="text-slate-500 font-medium">Project Lead</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Manajemen Timeline & Milestone (Gantt)</span>
+              <span class="text-slate-500 font-medium">Experienced</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Trello, Notion & Google Workspace</span>
+              <span class="text-slate-500 font-medium">Proficient</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Alokasi Sumber Daya & Optimasi (MILP)</span>
+              <span class="text-slate-500 font-medium">Formulasi</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 3: Data Analysis & Technical Stack -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <div class="flex items-center gap-2.5 mb-4 pb-3 border-b border-slate-100">
+            <div class="w-8 h-8 rounded-lg bg-slate-100 text-slate-800 flex items-center justify-center font-bold">
+              <i data-lucide="bar-chart-3" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-sm">Data Analysis & Tech</h3>
+          </div>
+          <div class="space-y-2.5 text-xs">
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Microsoft Excel (VLOOKUP, Pivot, Audit)</span>
+              <span class="text-slate-500 font-medium">Advanced</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Python (Pandas, NumPy, Scikit-Learn)</span>
+              <span class="text-slate-500 font-medium">Core Stack</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Data Quality Control (1.500+ Records)</span>
+              <span class="text-slate-500 font-medium">Verified</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+              <span class="font-semibold text-slate-800">Eksplorasi Data (EDA) & Machine Learning</span>
+              <span class="text-slate-500 font-medium">BNSP</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section id="education" class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 shadow-sm">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-6 border-b border-slate-100">
+          <div class="flex items-center gap-4">
+            <img src="assets/logo-ipb.png" alt="Logo IPB University" class="w-14 h-14 object-contain rounded-xl p-1 bg-slate-50 border border-slate-200" />
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-slate-950 font-sans">Institut Pertanian Bogor (IPB University)</h3>
+              <p class="text-xs sm:text-sm font-semibold text-slate-700 mt-0.5">Sarjana Matematika (S.Mat)</p>
+              <p class="text-xs text-slate-500">Departemen Matematika — Fakultas MIPA</p>
+            </div>
+          </div>
+          <span class="text-xs font-bold text-slate-500 bg-slate-50 px-3 py-1.5 rounded-md border border-slate-200 shrink-0">
+            Agu 2022 – Sep 2026
+          </span>
+        </div>
+
+        <!-- Thesis Spotlight -->
+        <div class="mt-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+          <div class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            <i data-lucide="book-open" class="w-4 h-4 text-slate-600"></i>
+            <span>Penelitian Tugas Akhir / Skripsi Sarjana (S.Mat)</span>
+          </div>
+          <p class="text-xs sm:text-sm font-bold text-slate-900 mt-1">
+            “COPD Severity Classification Using Principal Component Analysis (PCA) and Multinomial Logistic Regression”
+          </p>
+          <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+            Menerapkan reduksi dimensionalitas statistik untuk menangani korelasi variabel klinis dan membangun algoritma klasifikasi probabilitas diagnostik pasien penyakit paru obstruktif kronis.
+          </p>
+        </div>
+
+        <!-- Key Coursework -->
+        <div class="mt-6">
+          <div class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2.5">Mata Kuliah Utama Terkait</div>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Riset Operasi & Optimasi</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Statistika Matematika & Peluang</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Aljabar Linear & Matriks</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Analisis Regresi Multivariat</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Metode Numerik & Elemen Hingga (FEM)</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Kriptografi & Teori Bilangan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==================== FOOTER & CONTACT ==================== -->
+  <footer id="contact" class="pt-16 pb-12 border-t border-slate-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col items-center text-center pb-12 border-b border-slate-100">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">KONTAK & KOLABORASI</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-950 font-sans tracking-tight max-w-2xl">
+          Siap Berkontribusi di Bidang HR & People Analytics, Data Analysis, serta Project Coordination
+        </h2>
+        <p class="mt-3 text-slate-600 max-w-lg text-xs sm:text-sm leading-relaxed">
+          Terbuka untuk peluang karir di bidang <strong>HR & People Analytics, Data Analysis, serta Leadership & Project Coordination</strong>.
+        </p>
+
+        <!-- Direct Contact Buttons -->
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-2.5">
+          <a href="mailto:nur30nabila@gmail.com" class="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition shadow-sm">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+            <span>nur30nabila@gmail.com</span>
+          </a>
+          <a href="https://wa.me/6282258093523" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 rounded-lg transition">
+            <i data-lucide="phone" class="w-4 h-4 text-emerald-600"></i>
+            <span>+62 822-5809-3523</span>
+          </a>
+          <a href="https://www.linkedin.com/in/nurnabila30" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-blue-800 bg-blue-50 hover:bg-blue-100 border border-blue-300 rounded-lg transition">
+            <i data-lucide="linkedin" class="w-4 h-4 text-blue-600"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="Nur Nabila-CV.pdf" download="Nur Nabila-CV.pdf" class="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded-lg transition">
+            <i data-lucide="download" class="w-4 h-4"></i>
+            <span>Unduh CV</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-medium text-slate-500">
+        <div class="flex items-center gap-2">
+          <span>Nur Nabila, S.Mat © 2026</span>
+          <span>•</span>
+          <span class="flex items-center gap-1">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i>
+            Bogor / Remote, Indonesia
+          </span>
+        </div>
+        <a href="#about" class="text-slate-700 hover:text-slate-950 font-bold transition flex items-center gap-1">
+          Kembali ke atas <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== INTERACTIVE PROJECT MODALS ==================== -->
+
+  <!-- Modal 1: COPD Skripsi -->
+  <div id="copdModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('copdModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Tugas Akhir Sarjana Matematika (S.Mat) IPB
+      </span>
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans">
+        COPD Severity Classification Using PCA and Multinomial Logistic Regression
+      </h3>
+      <p class="text-xs text-slate-500 mt-0.5">Topik: Data Science Medis & Statistika Terapan</p>
+
+      <div class="mt-6 space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Latar Belakang Masalah</h4>
+          <p>Penyakit Paru Obstruktif Kronis (PPOK/COPD) memiliki berbagai tingkat keparahan yang didiagnosis melalui spirometri, riwayat klinis, dan demografi pasien. Terdapat multikolinieritas tinggi di antara variabel klinis yang dapat menurunkan keandalan model klasifikasi standar.</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">2. Pendekatan Metodologi & Rumus</h4>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs font-mono space-y-1">
+            <p><strong>• Reduksi Dimensi (PCA):</strong> Dekomposisi nilai eigen dari matriks kovarian data klinis terstandarisasi untuk mereduksi korelasi fitur.</p>
+            <p><strong>• Multinomial Logistic Regression:</strong> Memodelkan peluang log-odds dari kategori tingkat keparahan Y terhadap komponen utama Z_i.</p>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">3. Hasil & Temuan Utama</h4>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-600">
+            <li>Berhasil mereduksi dimensi fitur klinis tanpa menghilangkan variansi esensial informasi pasien.</li>
+            <li>Model Multinomial Logistic Regression mampu mengklasifikasikan tingkat keparahan dengan akurasi dan interpretasi probabilitas yang konsisten.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: QC PT Optima Solusi -->
+  <div id="qcModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('qcModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Pengalaman Kerja Profesional (Data Analyst & QC)
+      </span>
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans">
+        Data Quality Control & Validation Pipeline
+      </h3>
+      <p class="text-xs text-slate-500 mt-0.5">PT Optima Solusi Indonesia (Remote)</p>
+
+      <div class="mt-6 space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Ruang Lingkup Tugas</h4>
+          <p>Memvalidasi dataset berskala besar (1.500+ entri) untuk memastikan tidak ada kesalahan input, duplikasi, atau inkonsistensi terhadap data master.</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">2. Alur & Tools yang Digunakan</h4>
+          <ul class="list-disc list-inside space-y-1.5 text-xs text-slate-600">
+            <li><strong>Microsoft Excel & Google Sheets:</strong> Mengimplementasikan formula logika multi-kondisi, VLOOKUP silang, dan Data Validation rules untuk otomatisasi inspeksi anomali.</li>
+            <li><strong>Verifikasi Sumber Primer:</strong> Mengonfirmasi langsung data yang tidak sinkron ke dokumen acuan asli untuk menjaga <em>data integrity</em>.</li>
+            <li><strong>Google Drive Pipeline:</strong> Manajemen versi file dan penataan folder terstruktur agar tim 5 orang dapat mengakses data bersih secara real-time.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">3. Dampak Kerja</h4>
+          <p class="text-xs text-slate-600">Menghilangkan risiko kesalahan data pada fase pelaporan hilir, meningkatkan kecepatan verifikasi tim, dan memastikan 100% kepatuhan data sebelum diproses lanjut.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: BNSP Incident Risk Modeling -->
+  <div id="bnspModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('bnspModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Uji Asesmen Kompetensi BNSP Data Scientist (2026)
+      </span>
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans">
+        Incident Risk Prediction & Exploratory Data Analysis (EDA)
+      </h3>
+      <p class="text-xs text-slate-500 mt-0.5">Model: Random Forest, XGBoost & Visualisasi Data (8 Modul Penugasan)</p>
+
+      <!-- Action Buttons -->
+      <div class="mt-4 flex flex-wrap items-center gap-2.5">
+        <a href="projects/sertifikasi-bnsp-data-scientist.html" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shadow-sm">
+          <i data-lucide="code-2" class="w-3.5 h-3.5"></i>
+          <span>Buka Full Notebook HTML (8 Modul) ↗</span>
+        </a>
+        <a href="projects/sertifikasi-bnsp-data-scientist.html" download="Sertifikasi BNSP - Data Scientist - Nur Nabila.html" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold border border-slate-300 transition">
+          <i data-lucide="download" class="w-3.5 h-3.5 text-slate-700"></i>
+          <span>Unduh File HTML</span>
+        </a>
+      </div>
+
+      <div class="mt-6 space-y-5 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-5">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Ikhtisar & Arsitektur Model</h4>
+          <p>Menganalisis pola riwayat insiden kerja berdasarkan shift kerja, area operasional, kuartal, dan faktor penyebab utama. Membangun model machine learning Random Forest dan XGBoost untuk memprediksi tingkat keparahan insiden secara presisi.</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-3">2. Hasil Visualisasi EDA Nyata</h4>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <img src="assets/eda/Heatmap Shift vs Area Kerja.png" alt="Heatmap Shift vs Area Kerja" class="w-full h-auto rounded-lg object-cover" />
+              <p class="text-[11px] font-bold text-slate-700 mt-2 text-center">Heatmap Konsentrasi Insiden: Shift vs Area Kerja</p>
+            </div>
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <img src="assets/eda/Distribusi Penyebab Utama.png" alt="Distribusi Penyebab Utama Insiden" class="w-full h-auto rounded-lg object-cover" />
+              <p class="text-[11px] font-bold text-slate-700 mt-2 text-center">Distribusi Frekuensi Faktor Penyebab Utama</p>
+            </div>
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <img src="assets/eda/Perbandingan Tren Insiden per Kuartal (2022-2024).png" alt="Tren Insiden per Kuartal" class="w-full h-auto rounded-lg object-cover" />
+              <p class="text-[11px] font-bold text-slate-700 mt-2 text-center">Perbandingan Tren Kuartal (2022–2024)</p>
+            </div>
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <img src="assets/eda/Komposisi Insiden per Area Kerja.png" alt="Komposisi Insiden per Area Kerja" class="w-full h-auto rounded-lg object-cover" />
+              <p class="text-[11px] font-bold text-slate-700 mt-2 text-center">Komposisi Insiden Berdasarkan Area Kerja</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">3. Hasil Asesmen</h4>
+          <p class="text-xs text-slate-600">Model berhasil mengenali zona rawan dan waktu shift kritis dengan akurasi tinggi, serta mengantarkan perolehan predikat <strong>Kompeten</strong> dalam sertifikasi BNSP Associate Data Scientist.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: FEM Wi-Fi Publication -->
+  <div id="femModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('femModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Techno.Com | Vol. 25 No. 1 (2026)
+      </span>
+
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans leading-snug">
+        Simulasi Propagasi Sinyal Wi-Fi Menggunakan Metode Elemen Hingga pada Ruangan Kompleks dengan Variasi Posisi Router
+      </h3>
+
+      <div class="mt-3 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700">
+        <span class="font-bold text-slate-900">Penulis:</span> Nadhira Maulida Hayani, Harley Dearmanson Girsang, <strong class="text-slate-900 underline">Nur Nabila</strong>, Khairuna Putri Gunawan, Nerissa Patrice Manuella, Maliha Qonita, Aaron August Vincent Soelaiman, Mochamad Tito Julianto, Sri Nurdiati, Mohamad Khoirun Najib, Syukri Arif Rafhida.<br>
+        <span class="text-slate-500 font-medium">Afiliasi: Departemen Matematika, FMIPA IPB University. Terbit: 26 Februari 2026.</span>
+      </div>
+
+      <div class="mt-4 flex flex-wrap items-center gap-2.5">
+        <a href="https://doi.org/10.62411/tc.v25i1.15769" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shadow-sm">
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          <span>Buka DOI: 10.62411/tc.v25i1.15769</span>
+        </a>
+        <a href="https://publikasi.dinus.ac.id/technoc/article/download/15769/5891" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold border border-slate-300 transition">
+          <i data-lucide="download" class="w-3.5 h-3.5 text-slate-700"></i>
+          <span>Unduh Full PDF Jurnal</span>
+        </a>
+      </div>
+
+      <div class="mt-6 space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-5">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Abstrak Penelitian</h4>
+          <p class="text-xs text-slate-600 leading-relaxed text-justify">
+            Kualitas sinyal Wi-Fi di dalam ruangan sangat dipengaruhi oleh geometri bangunan dan posisi router, terutama pada bangunan berbentuk kompleks. Penelitian ini memodelkan perambatan sinyal Wi-Fi 2,4 GHz menggunakan persamaan Helmholtz dan Metode Elemen Hingga (FEM) pada ruangan berbentuk L untuk menganalisis pembentukan area pelemahan sinyal (<em>dead zone</em>).
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">2. Persamaan Helmholtz & Diskritisasi</h4>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs font-mono space-y-1">
+            <p class="text-slate-900 bg-white p-2 rounded border border-slate-200 font-bold">∇² E + k² E = 0</p>
+            <p class="text-[11px] text-slate-600">Diskritisasi domain ruangan berbentuk L dengan mesh segitiga menggunakan Wolfram Mathematica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: MILP Route Optimization -->
+  <div id="milpModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('milpModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Riset Operasi & Optimasi Matematika (2025)
+      </span>
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans">
+        Nuclear Waste Transportation Route Optimization
+      </h3>
+      <p class="text-xs text-slate-500 mt-0.5">Model: Mixed Integer Linear Programming (MILP)</p>
+
+      <div class="mt-6 space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Deskripsi Permasalahan</h4>
+          <p>Transportasi limbah nuklir dari fasilitas pembangkit menuju fasilitas pembuangan akhir melibatkan risiko bahaya radiasi terhadap populasi sekitar rute jalan raya. Diperlukan rute optimum yang meminimalkan paparan populasi di bawah batasan kapasitas armada dan jendela waktu.</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">2. Formulasi Matematika (MILP)</h4>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs font-mono space-y-2">
+            <p><strong>• Fungsi Tujuan:</strong> Meminimalkan total paparan populasi tertimbang sepanjang ruas (i,j) yang dilewati:</p>
+            <p class="text-slate-900 bg-white p-2 rounded border border-slate-200">Min Z = Σ_i Σ_j (PopExposure_ij * x_ij)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Cryptography -->
+  <div id="cryptoModal" class="project-modal fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar border border-slate-200 p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeModal('cryptoModal')" class="absolute top-5 right-5 p-2 rounded-lg text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition" aria-label="Tutup modal">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 text-xs font-bold">
+        Keamanan Informasi & Kriptografi (2025)
+      </span>
+      <h3 class="text-lg sm:text-xl font-bold text-slate-900 mt-2 font-sans">
+        Cryptographic Security Analysis: Rabin & Rabin–Williams Signatures
+      </h3>
+      <p class="text-xs text-slate-500 mt-0.5 font-mono">Teori Bilangan & Skema Tanda Tangan Digital</p>
+
+      <div class="mt-6 space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-4">
+        <div>
+          <h4 class="font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">1. Prinsip Dasar</h4>
+          <p>Skema tanda tangan digital Rabin memiliki dasar keamanan komputasi yang terbukti setara dengan faktorisasi bilangan bulat besar N = pq.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    lucide.createIcons();
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('#mobileMenu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Experience Tab Switcher
+    function switchExpTab(tab) {
+      const btnWork = document.getElementById('tabExpWork');
+      const btnOrg = document.getElementById('tabExpOrg');
+      const timelineWork = document.getElementById('timelineWork');
+      const timelineOrg = document.getElementById('timelineOrg');
+
+      if (tab === 'work') {
+        btnWork.classList.add('bg-white', 'text-slate-900', 'shadow-sm');
+        btnWork.classList.remove('text-slate-600');
+        btnOrg.classList.remove('bg-white', 'text-slate-900', 'shadow-sm');
+        btnOrg.classList.add('text-slate-600');
+
+        timelineWork.classList.remove('hidden');
+        timelineOrg.classList.add('hidden');
+      } else {
+        btnOrg.classList.add('bg-white', 'text-slate-900', 'shadow-sm');
+        btnOrg.classList.remove('text-slate-600');
+        btnWork.classList.remove('bg-white', 'text-slate-900', 'shadow-sm');
+        btnWork.classList.add('text-slate-600');
+
+        timelineOrg.classList.remove('hidden');
+        timelineWork.classList.add('hidden');
+      }
+      lucide.createIcons();
+    }
+
+    // Projects Filter Tabs
+    function filterProjects(category) {
+      document.querySelectorAll('.proj-tab-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-white', 'text-slate-900', 'shadow-sm');
+        btn.classList.add('text-slate-600');
+      });
+      event.currentTarget.classList.add('active', 'bg-white', 'text-slate-900', 'shadow-sm');
+      event.currentTarget.classList.remove('text-slate-600');
+
+      const cards = document.querySelectorAll('.project-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Certificates Filter Tabs
+    function filterCerts(category) {
+      document.querySelectorAll('.cert-tab-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-white', 'text-slate-900', 'shadow-sm');
+        btn.classList.add('text-slate-600');
+      });
+      event.currentTarget.classList.add('active', 'bg-white', 'text-slate-900', 'shadow-sm');
+      event.currentTarget.classList.remove('text-slate-600');
+
+      const certs = document.querySelectorAll('.cert-card');
+      certs.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-cert-cat') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Modal Handlers
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    document.querySelectorAll('.project-modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+          document.body.style.overflow = 'auto';
+        }
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.project-modal').forEach(modal => {
+          modal.classList.add('hidden');
+        });
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
+</body>
+</html>

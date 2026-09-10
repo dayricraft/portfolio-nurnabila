@@ -1,0 +1,22 @@
+{
+  "name": "portofolio-nur-nabila",
+  "version": "1.0.0",
+  "description": "Portofolio Resmi Nur Nabila, S.Mat - HR & People Analytics | Data Analysis | Leadership & Project Coordination",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve -l 3000 .",
+    "start": "npx -y serve -l 3000 .",
+    "serve": "npx -y serve -l 3000 ."
+  },
+  "keywords": [
+    "portfolio",
+    "mathematics-graduate",
+    "human-resource-development",
+    "people-analytics",
+    "data-analytics",
+    "project-coordination",
+    "leadership"
+  ],
+  "author": "Nur Nabila, S.Mat",
+  "license": "MIT"
+}
